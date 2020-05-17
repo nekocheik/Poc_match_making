@@ -1,0 +1,27 @@
+{
+  "name": "match_making",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekocheik/Poc_match_making.git"
+  },
+  "author": "veggiemonk <julien.bisconti@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nekocheik/Poc_match_making/issues"
+  },
+  "homepage": "https://github.com/nekocheik/Poc_match_making#readme",
+  "dependencies": {
+    "@babel/node": "^7.8.7",
+    "export": "^0.1.337",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6"
+  }
+}
