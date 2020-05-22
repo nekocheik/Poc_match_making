@@ -1,3 +1,5 @@
-//const User = require("./user");
+import User from "./user";
 
-//new user({ name: "sophie", age: 23, gender: "M" });
+let c = new User({ name: "sophie", age: 23, gender: "M" });
+
+console.log(c);

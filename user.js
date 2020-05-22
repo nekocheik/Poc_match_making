@@ -1,7 +1,8 @@
-const global = "./global";
+import Global from "./global";
 
-class User extends global {
+class User extends Global {
   constructor({ gender, name, age }) {
+    super();
     this._gender;
     this._name;
     this._age;
@@ -9,8 +10,8 @@ class User extends global {
     this._maxNameLength = 30;
     /// setteur
     this.setGender(gender);
-    this.setGender(name);
-    this.setGender(age);
+    this.setName(name);
+    this.setAge(age);
   }
   getGender() {
     return this.getGender;
@@ -41,7 +42,7 @@ class User extends global {
       age.length > this._minNameLength &&
       age.length < this._maxNameLength
     ) {
-      this._age = age;
+      this._name = age;
     } else {
       this.setterErrorMessage(
         age,

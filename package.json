@@ -17,11 +17,13 @@
   },
   "homepage": "https://github.com/nekocheik/Poc_match_making#readme",
   "dependencies": {
-    "@babel/node": "^7.8.7",
-    "export": "^0.1.337",
-    "nodemon": "^2.0.4"
+    "dotenv": "^8.2.0",
+    "export": "^0.1.337"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.9.6"
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "nodemon": "^2.0.4"
   }
 }
